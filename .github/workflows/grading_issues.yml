@@ -1,3 +1,4 @@
+name: Generate Achievement Issues
 on:
   workflow_dispatch
 
@@ -23,7 +24,6 @@ jobs:
             - [ ] correct calls to functions
             - [ ] correct use of variables
             - [ ] use of logical operators
-            ```
           pinned: false
           close-previous: false
         env:
@@ -48,7 +48,6 @@ jobs:
             - [ ] pythonic loops
             - [ ] efficient use of return vs side effects in functions
             - [ ] correct, effective use of builtin python iterable types (lists & dictionaries)
-            ```
           pinned: false
           close-previous: false
         env:
@@ -72,7 +71,6 @@ jobs:
             - [ ] pep8 adherant variable, file, class, and function names
             - [ ] effective use of multi-paradigm abilities for efficiency gains
             - [ ] easy to read code that adheres to readability over other rules
-            ```
           pinned: false
           close-previous: false
         env:
@@ -95,7 +93,6 @@ jobs:
             
             - [ ] identify component disciplines OR
             - [ ] idenitfy phases
-            ```
           pinned: false
           close-previous: false
         env:
@@ -119,7 +116,6 @@ jobs:
             - [ ] correctly defines stages
             - [ ] identifies stages in use
             - [ ] describes general goals as well as a specific processes
-            ```
           pinned: false
           close-previous: false
         env:
@@ -143,7 +139,6 @@ jobs:
             - [ ] describes exceptions to process and iteration in process
             - [ ] connects choices at one phase to impacts in other phases
             - [ ] connects data science steps to real world decisions
-            ```
           pinned: false
           close-previous: false
         env:
@@ -164,8 +159,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] use at least one pandas `read_` function correctly
+            - [ ] name common types
+            - [ ] describe the structure of common types
           pinned: false
           close-previous: false
         env:
@@ -186,8 +182,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] load data from at least two of (.csv, .tsv, .dat, database, .json)
+            - [ ] describe advantages and disadvantages of most commone types
+            - [ ] descive how most common types are different
           pinned: false
           close-previous: false
         env:
@@ -208,8 +205,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] load data from at least 1 uncommon format
+            - [ ] describe when one format is better than another
           pinned: false
           close-previous: false
         env:
@@ -230,8 +227,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] identify what the structure of a merged dataset should be (size, shape, columns)
+            - [ ] idenitfy when datasets can or cannot be merged
           pinned: false
           close-previous: false
         env:
@@ -252,8 +249,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] use 3 different types of merges
+            - [ ] choose the right type of merge for realistic scenarios
           pinned: false
           close-previous: false
         env:
@@ -274,8 +271,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] manipulate data to make it mergable
+            - [ ] identify how to combine data from many sources to answer a question
+            - [ ] implement stesp to combine data from multiple sources
           pinned: false
           close-previous: false
         env:
@@ -296,8 +294,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] use attributes to produce a description of a dataset
+            - [ ] display parts of a dataset
           pinned: false
           close-previous: false
         env:
@@ -314,12 +312,16 @@ jobs:
         with:
           title: "summarize-level2"
           body: |
-            compute summary statndard statistics of a whole dataset and grouped data
+            compute and interpret summary standard statistics of a whole dataset and grouped data
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] compute descriptive statistics on whole datasets
+            - [ ] apply individual statistics to datasets
+            - [ ] group data by a categorical variable for analysis
+            - [ ] apply split-apply-combine paradigm to analyze data
+            - [ ] interprete statistics on whole datasets
+            - [ ] interpret statistics on subsets of data
           pinned: false
           close-previous: false
         env:
@@ -340,8 +342,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] produce custom aggregation tables to summarize datasets
+            - [ ] compute multivariate summary statistics by grouping
+            - [ ] compute custom cacluations on datasets
           pinned: false
           close-previous: false
         env:
@@ -362,8 +365,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] generate at least two types of plots with pandas
+            - [ ] identify plot types by name
+            - [ ] interpret basic information from plots
           pinned: false
           close-previous: false
         env:
@@ -384,8 +388,10 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] generate at least 3 types of plots
+            - [ ] use correct, complete, legible labeling on plots
+            - [ ] plot using both pandas and seaborn
+            - [ ] interpret multiple types of plots to draw conclusions
           pinned: false
           close-previous: false
         env:
@@ -406,8 +412,12 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] use at least two libraries to plot
+            - [ ] generate figures with subplots
+            - [ ] customize the display of a plot to be publication ready
+            - [ ] interpret plot types and explain them for novices
+            - [ ] choose appopriate plot types to convey information
+            - [ ] explain why plotting common best practices are effective
           pinned: false
           close-previous: false
         env:
@@ -428,8 +438,10 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] identify problems in a dataset
+            - [ ] anticipate how potential data setups will interfere with analysis
+            - [ ] describe the structure of tidy data
+            - [ ] label data as tidy or not
           pinned: false
           close-previous: false
         env:
@@ -450,8 +462,12 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] reshape data to be analyzable as directed
+            - [ ] filter data as directed
+            - [ ] rename columns as directed
+            - [ ] rename values to make data more analyzable
+            - [ ] handle missing values in at least two ways
+            - [ ] transform data to tidy format
           pinned: false
           close-previous: false
         env:
@@ -472,8 +488,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] identify issues in a dataset and correctly implement solutions
+            - [ ] convert varialbe representation by changing types
+            - [ ] change variable representation using one hot encoding
           pinned: false
           close-previous: false
         env:
@@ -494,8 +511,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] define at least two performance metrics
+            - [ ] describe how those metrics compare or compete
           pinned: false
           close-previous: false
         env:
@@ -516,8 +533,11 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] create test train splits
+            - [ ] describe why test train splits are important
+            - [ ] apply at least three performance metrics to models
+            - [ ] choose at least one appropriate metric for each modeling task
+            - [ ] interpret at least three metrics
           pinned: false
           close-previous: false
         env:
@@ -538,8 +558,10 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] explain cross validation
+            - [ ] describe why cross vaidation is important
+            - [ ] idenitfy appropriate metrics for different types of modeling tasks
+            - [ ] use multiple metriccs together to create a more complete description of a model's performance
           pinned: false
           close-previous: false
         env:
@@ -560,8 +582,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] describe what classification is
+            - [ ] describe what a dataset must look like for classifcation
+            - [ ] identify appliations of classifcation in the real world
           pinned: false
           close-previous: false
         env:
@@ -582,8 +605,12 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] fit a classification model
+            - [ ] apply a classification model to obtain predictions
+            - [ ] interpret the predictions of a classification model
+            - [ ] examine parameters of at least one fit classifier to explain how the prediction is made
+            - [ ] differentiate between model fitting and generating predictions
+            - [ ] evaluate how model parameters impact model performance
           pinned: false
           close-previous: false
         env:
@@ -604,8 +631,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] choose appropriate classifiers based on application context
+            - [ ] explain how at least 3 different classifiers make predictions
+            - [ ] evaluate how model parameters impact model performance and justify choices when tradeoffs are necessary
           pinned: false
           close-previous: false
         env:
@@ -626,8 +654,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] identify data that is/not appropriate for regression
+            - [ ] describe univariate linear regression
+            - [ ] identify appliations of regression in the real world
           pinned: false
           close-previous: false
         env:
@@ -648,8 +677,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] fit univariate linear regression models
+            - [ ] interpret linear regression models
+            - [ ] fit multivariate linear regression models
           pinned: false
           close-previous: false
         env:
@@ -670,8 +700,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] fit nonlinear or regrularized regression models
+            - [ ] interpret and explain nonlinear or regrularized regresion models
           pinned: false
           close-previous: false
         env:
@@ -692,8 +722,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] differentiate clustering from classification and regression
+            - [ ] identify appliations of clustering in the real world
           pinned: false
           close-previous: false
         env:
@@ -714,8 +744,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] fit Kmeans
+            - [ ] interpret kmeans
           pinned: false
           close-previous: false
         env:
@@ -736,8 +766,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] apply at least two clustering techniques
+            - [ ] explain the differences between two clustering models
           pinned: false
           close-previous: false
         env:
@@ -758,8 +788,7 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] identify when parameters might impact model performance
           pinned: false
           close-previous: false
         env:
@@ -780,8 +809,9 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] automatically optimize multiple parameters
+            - [ ] evaluate potential tradeoffs
+            - [ ] interpret optimization results in context
           pinned: false
           close-previous: false
         env:
@@ -802,8 +832,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] optimize models based on multiple metrics
+            - [ ] describe when one model vs another is most appropriate
           pinned: false
           close-previous: false
         env:
@@ -824,8 +854,7 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] compare models within the same task on complexity
           pinned: false
           close-previous: false
         env:
@@ -846,8 +875,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] compare models in multiple terms
+            - [ ] interpret cross model comparisons in context
           pinned: false
           close-previous: false
         env:
@@ -868,8 +897,10 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] compare models on multiple criteria
+            - [ ] compare optimized models
+            - [ ] jointly interpret optimization result and compare models
+            - [ ] compare models on quanttiateve and qualitative measures
           pinned: false
           close-previous: false
         env:
@@ -890,8 +921,7 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] describe the basic goals for changing the representation of data
           pinned: false
           close-previous: false
         env:
@@ -912,8 +942,7 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] transform text or image data for use with ML
           pinned: false
           close-previous: false
         env:
@@ -934,8 +963,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] transform both text and image data for use in ml
+            - [ ] evaluate the impact of representation on model performance
           pinned: false
           close-previous: false
         env:
@@ -956,8 +985,7 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] pseudocode out the steps to answer basic data science questions
           pinned: false
           close-previous: false
         env:
@@ -978,8 +1006,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] plan and execute answering real questions to an open ended question
+            - [ ] describe the necessary steps and tools
           pinned: false
           close-previous: false
         env:
@@ -1000,8 +1028,8 @@ jobs:
 
             Components:
             
-            - [ ] 
-            ```
+            - [ ] scope and solve realistic data science problems
+            - [ ] compare different data science tool stacks
           pinned: false
           close-previous: false
         env:
