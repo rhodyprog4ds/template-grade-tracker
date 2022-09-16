@@ -25,7 +25,7 @@ jobs:
             - [ ] correct use of variables
             - [ ] use of logical operators
           pinned: false
-          close-previous: true
+          close-previous: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
