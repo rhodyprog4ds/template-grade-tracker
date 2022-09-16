@@ -25,9 +25,9 @@ jobs:
             - [ ] correct use of variables
             - [ ] use of logical operators
           pinned: false
-          close-previous: false
+          close-previous: true
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   python-level2:
     name: Create python-level2 Issue
@@ -51,7 +51,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   python-level3:
     name: Create python-level3 Issue
@@ -74,7 +74,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   process-level1:
     name: Create process-level1 Issue
@@ -96,7 +96,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   process-level2:
     name: Create process-level2 Issue
@@ -119,7 +119,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   process-level3:
     name: Create process-level3 Issue
@@ -142,7 +142,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   access-level1:
     name: Create access-level1 Issue
@@ -165,7 +165,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   access-level2:
     name: Create access-level2 Issue
@@ -188,7 +188,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   access-level3:
     name: Create access-level3 Issue
@@ -210,7 +210,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   construct-level1:
     name: Create construct-level1 Issue
@@ -232,7 +232,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   construct-level2:
     name: Create construct-level2 Issue
@@ -254,7 +254,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   construct-level3:
     name: Create construct-level3 Issue
@@ -277,7 +277,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   summarize-level1:
     name: Create summarize-level1 Issue
@@ -299,7 +299,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   summarize-level2:
     name: Create summarize-level2 Issue
@@ -325,7 +325,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   summarize-level3:
     name: Create summarize-level3 Issue
@@ -348,7 +348,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   visualize-level1:
     name: Create visualize-level1 Issue
@@ -371,7 +371,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   visualize-level2:
     name: Create visualize-level2 Issue
@@ -395,7 +395,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   visualize-level3:
     name: Create visualize-level3 Issue
@@ -421,7 +421,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   prepare-level1:
     name: Create prepare-level1 Issue
@@ -445,7 +445,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   prepare-level2:
     name: Create prepare-level2 Issue
@@ -471,7 +471,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   prepare-level3:
     name: Create prepare-level3 Issue
@@ -494,7 +494,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   evaluate-level1:
     name: Create evaluate-level1 Issue
@@ -516,7 +516,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   evaluate-level2:
     name: Create evaluate-level2 Issue
@@ -541,7 +541,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   evaluate-level3:
     name: Create evaluate-level3 Issue
@@ -565,7 +565,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   classification-level1:
     name: Create classification-level1 Issue
@@ -588,7 +588,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   classification-level2:
     name: Create classification-level2 Issue
@@ -614,7 +614,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   classification-level3:
     name: Create classification-level3 Issue
@@ -637,7 +637,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   regression-level1:
     name: Create regression-level1 Issue
@@ -660,7 +660,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   regression-level2:
     name: Create regression-level2 Issue
@@ -683,7 +683,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   regression-level3:
     name: Create regression-level3 Issue
@@ -705,7 +705,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   clustering-level1:
     name: Create clustering-level1 Issue
@@ -727,7 +727,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   clustering-level2:
     name: Create clustering-level2 Issue
@@ -749,7 +749,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   clustering-level3:
     name: Create clustering-level3 Issue
@@ -771,7 +771,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   optimize-level1:
     name: Create optimize-level1 Issue
@@ -792,7 +792,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   optimize-level2:
     name: Create optimize-level2 Issue
@@ -815,7 +815,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   optimize-level3:
     name: Create optimize-level3 Issue
@@ -837,7 +837,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   compare-level1:
     name: Create compare-level1 Issue
@@ -858,7 +858,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   compare-level2:
     name: Create compare-level2 Issue
@@ -880,7 +880,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   compare-level3:
     name: Create compare-level3 Issue
@@ -904,7 +904,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   representation-level1:
     name: Create representation-level1 Issue
@@ -925,7 +925,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   representation-level2:
     name: Create representation-level2 Issue
@@ -946,7 +946,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   representation-level3:
     name: Create representation-level3 Issue
@@ -968,7 +968,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   workflow-level1:
     name: Create workflow-level1 Issue
@@ -989,7 +989,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   workflow-level2:
     name: Create workflow-level2 Issue
@@ -1011,7 +1011,7 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   workflow-level3:
     name: Create workflow-level3 Issue
@@ -1033,4 +1033,4 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
